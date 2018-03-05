@@ -1,0 +1,14 @@
+{
+  "extends": "tune",
+  "plugins": ["prettier"],
+  "rules": {
+    "class-methods-use-this": "off",
+    "arrow-parens": "off",
+    "prettier/prettier": "error"
+  },
+  "env": {
+    "node": true,
+    "es6": true,
+    "jest": true
+  }
+}
